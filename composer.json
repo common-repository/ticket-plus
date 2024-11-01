@@ -1,0 +1,20 @@
+{
+    "name": "id-plus/ticket-plus",
+    "description": "This plugin will display events into your website",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "id-plus",
+            "email": "support@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "paypal/rest-api-sdk-php": "*",
+        "paypal/paypal-checkout-sdk": "*"
+    },
+    "autoload": {
+        "psr-4": {"Tidplus\\": "./inc"}
+    }
+}
